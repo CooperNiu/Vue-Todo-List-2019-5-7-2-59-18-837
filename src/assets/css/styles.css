@@ -1,0 +1,74 @@
+/* html {
+    background: gray;
+} */
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+/* 
+button {
+    background: pink;
+} */
+
+
+/* button:hover {
+    background: rgb(226, 119, 191);
+} */
+
+
+/* button:focus {
+    background: rgb(226, 119, 191);
+} */
+
+.todo-list-container {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.item-list-input-container {
+    margin-top: 10px;
+}
+
+.item-list-input-container input {
+    width: 400px;
+}
+
+.item-list-input-container button {
+    margin-left: 20px;
+}
+
+.item-list-container {
+    margin: 20px 0;
+    height: 120px;
+    width: 100%;
+    overflow: auto;
+}
+
+.item-list {
+    width: inherit;
+}
+
+.item-list span {
+    display: inline-block;
+}
+
+.color-zone {
+    display: inline-block;
+    width: 393px;
+}
+
+
+/* .item-list:nth-child(even) .color-zone {
+    background: pink;
+} */
+
+.item-list-button-container button {
+    margin: 0 55px;
+}
