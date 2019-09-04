@@ -1,74 +1,62 @@
-/* html {
-    background: gray;
-} */
-
-p {
+html{
+  background: gray;
+}
+p{
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
 }
-
-
-/* 
-button {
+button{
     background: pink;
-} */
-
-
-/* button:hover {
+}
+button:hover{
     background: rgb(226, 119, 191);
-} */
-
-
-/* button:focus {
+}
+button:focus{
     background: rgb(226, 119, 191);
-} */
-
-.todo-list-container {
+}
+.delete-button{
+    text-align: right;
+}
+#app{
     width: 500px;
     height: 300px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
+    border-radius: 15px;
 }
-
 .item-list-input-container {
     margin-top: 10px;
 }
-
-.item-list-input-container input {
+.item-list-input-container input{
     width: 400px;
 }
-
-.item-list-input-container button {
+.item-list-input-container button{
     margin-left: 20px;
 }
-
-.item-list-container {
+.item-list-container{
     margin: 20px 0;
     height: 120px;
     width: 100%;
     overflow: auto;
 }
-
-.item-list {
+.item-list{
     width: inherit;
 }
-
-.item-list span {
+.item-list span{
     display: inline-block;
 }
-
-.color-zone {
+.color-zone{
     display: inline-block;
-    width: 393px;
+    width: 385px;  
 }
-
-
-/* .item-list:nth-child(even) .color-zone {
-    background: pink;
-} */
-
-.item-list-button-container button {
+.item-list:nth-child(even) .color-zone{
+    background: pink;    
+}
+.item-list-button-container button{
     margin: 0 55px;
+}
+.delete-line{
+    text-decoration-line: line-through;
 }
